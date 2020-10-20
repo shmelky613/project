@@ -15,10 +15,5 @@ namespace Engine.Models
         public int Level { get; set; }
         public int Gold { get; set; }
     }
-    public GameSession()
-    {
-        CurrentPlayer = new Player();
-        CurrentPlayer.Name = "Scott";
-        CurrentPlayer.Gold = 100000;
-    }
+    
 }
